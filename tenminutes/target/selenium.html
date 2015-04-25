@@ -1,0 +1,149 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>failed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.25</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+    <table xmlns="http://www.w3.org/1999/xhtml">
+        <tr class="title status_failed">
+            <td>
+                    <b>Suite Of Tests</b>
+                </td>
+        </tr>
+    <tr class="  status_failed">
+                <td>
+                    <a href="#testresult0">Selenium test for TimerController</a>
+                </td>
+            </tr>
+        </table>
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">http://localhost:8080/tenminutes/resources/selenium/test-timer.xhtml</a><br/><div xmlns="http://www.w3.org/1999/xhtml">
+    <table cellspacing="1" cellpadding="1" border="1" xmlns="http://www.w3.org/1999/xhtml">
+        <thead>
+            <tr class="title status_failed">
+                <td colspan="3" rowspan="1">Selenium test for TimerController</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr style="cursor: pointer;" class="  status_done">
+                    <td>open</td>
+                    <td>http://localhost:8080/tenminutes/timers?form&amp;lang=en_US</td>
+                    <td> </td>
+                </tr>
+                <tr style="cursor: pointer;" class="  status_done">
+                    <td>type</td>
+                    <td>_message_id</td>
+                    <td>someMessage1</td>
+                </tr>
+                <tr style="cursor: pointer;" class="  status_failed">
+                    <td>clickAndWait</td>
+                    <td>//input[@id = 'proceed']</td>
+                    <td>CommandÂ&nbsp;executionÂ&nbsp;failure.Â&nbsp;PleaseÂ&nbsp;searchÂ&nbsp;theÂ&nbsp;userÂ&nbsp;groupÂ&nbsp;atÂ&nbsp;https://groups.google.com/forum/#!forum/selenium-usersÂ&nbsp;forÂ&nbsp;errorÂ&nbsp;detailsÂ&nbsp;fromÂ&nbsp;theÂ&nbsp;logÂ&nbsp;window.Â&nbsp;Â&nbsp;TheÂ&nbsp;errorÂ&nbsp;messageÂ&nbsp;is:Â&nbsp;ArgumentÂ&nbsp;1Â&nbsp;ofÂ&nbsp;EventTarget.dispatchEventÂ&nbsp;doesÂ&nbsp;notÂ&nbsp;implementÂ&nbsp;interfaceÂ&nbsp;Event.</td>
+                </tr>
+                <tr style="cursor: pointer;" class="">
+                    <td>verifyText</td>
+                    <td>_s_com_tenminutes_Timer_message_message_id</td>
+                    <td>someMessage1</td>
+                </tr>
+            </tbody>
+    </table>
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /tenminutes/resources/selenium/test-timer.xhtml
+info: Executing: |open | http://localhost:8080/tenminutes/timers?form&amp;lang=en_US |  |
+info: Executing: |type | _message_id | someMessage1 |
+info: Executing: |clickAndWait | //input[@id = &apos;proceed&apos;] |  |
+error: Unexpected Exception: Argument 1 of EventTarget.dispatchEvent does not implement interface Event.
+error: Exception details: 
+warn: currentTest.recordFailure: Command execution failure. Please search the user group at https://groups.google.com/forum/#!forum/selenium-users for error details from the log window.  The error message is: Argument 1 of EventTarget.dispatchEvent does not implement interface Event.
+</pre></body></html>
