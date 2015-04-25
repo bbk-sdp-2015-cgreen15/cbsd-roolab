@@ -1,0 +1,4 @@
+32  persistenceUnit  WARN   [main] openjpa.Runtime - An error occurred while registering a ClassTransformer with PersistenceUnitInfo: name 'persistenceUnit', root URL [file:/Users/craigsg/Documents/files/bbk/cbsd/software/rooexp/wedding/target/classes]. The error has been consumed. To see it, set your openjpa.Runtime log level to TRACE. Load-time class transformation will not be available.
+164  persistenceUnit  INFO   [main] openjpa.Runtime - OpenJPA dynamically loaded a validation provider.
+631  persistenceUnit  INFO   [main] openjpa.Runtime - Starting OpenJPA 2.2.2
+669  persistenceUnit  INFO   [main] openjpa.jdbc.JDBC - Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary".

@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.wedding.domain.Rsvp_Roo_JavaBean"/>
+<aspect name="com.wedding.domain.Rsvp_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.wedding.domain.Rsvp_Roo_Finder"/>
+<aspect name="com.wedding.domain.Rsvp_Roo_Configurable"/>
+<aspect name="com.wedding.domain.Rsvp_Roo_ToString"/>
+<aspect name="com.wedding.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.wedding.web.RsvpController_Roo_Controller"/>
+<aspect name="com.wedding.domain.Rsvp_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+
